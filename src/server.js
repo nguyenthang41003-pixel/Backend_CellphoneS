@@ -37,7 +37,9 @@ const allowedOrigins = [
     'http://localhost:3006', // Local development - admin
     'http://localhost:3008', // Local development
     'http://localhost:3009', // Local development
-    'http://localhost:3059', // Local development    
+    'http://localhost:3059', // Local development  
+    'https://admin-cellphones.vercel.app', // Production - admin
+    'https://trang-chu-cellphones.vercel.app'
 ];
 
 app.use(cors({
